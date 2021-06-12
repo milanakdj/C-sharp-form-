@@ -19,5 +19,26 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            this.progressBar1.Increment(1);
+            /*if(this.progressBar1.Value==100)
+            {
+                Form1 form = new Form1();
+                form.Show();
+                this.Hide();
+            }*/
+        }
     }
 }
