@@ -41,9 +41,10 @@ namespace WinFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(334, 200);
+            this.button1.Location = new System.Drawing.Point(195, 100);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 40);
+            this.button1.Size = new System.Drawing.Size(76, 20);
             this.button1.TabIndex = 0;
             this.button1.Text = "Load Progress";
             this.button1.UseVisualStyleBackColor = true;
@@ -55,9 +56,10 @@ namespace WinFormsApp1
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(120, 117);
+            this.progressBar1.Location = new System.Drawing.Point(70, 58);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(549, 40);
+            this.progressBar1.Size = new System.Drawing.Size(320, 20);
             this.progressBar1.TabIndex = 1;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
@@ -65,8 +67,9 @@ namespace WinFormsApp1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(799, 111);
+            this.pictureBox1.Size = new System.Drawing.Size(466, 56);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -74,24 +77,26 @@ namespace WinFormsApp1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(120, 169);
+            this.label1.Location = new System.Drawing.Point(70, 84);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 30);
+            this.label1.Size = new System.Drawing.Size(56, 15);
             this.label1.TabIndex = 3;
             this.label1.Text = "loading...";
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(467, 225);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -35,7 +35,7 @@ namespace WinFormsApp1
         private void timer1_Tick(object sender, EventArgs e)
         {
             progress++;
-            this.progressBar1.Increment(1);
+            this.progressBar1.Increment(1);//progressBar1.value=progress;
             label1.Text = "loading..." + progress + " % loaded";
             if (progress >= 100)
             {
